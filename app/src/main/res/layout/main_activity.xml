@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/showListToolsTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListToolsTest"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/showNotificationTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NotificationTest"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/showImageToolsTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageToolsTest"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/ObserverTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ObserverTest"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/RetryHelperTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RetryHelperTest"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/DialogTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DialogTest"
+        android:textAllCaps="false" />
+    <com.paraxco.customview.ProgressButton
+        android:id="@+id/progressButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:text="ProgressButton test"
+        android:background="@color/color_blue_dark"
+        app:textColor="@color/white"
+        >
+
+    </com.paraxco.customview.ProgressButton>
+</LinearLayout>
